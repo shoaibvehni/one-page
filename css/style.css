@@ -128,3 +128,71 @@ hr {
     padding-left: 74px;
     text-align: start;
 }
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about .host{ 
+    margin-top: 75px;
+    margin-bottom: 16px;
+    color: #262626;
+font-size: 45px;
+}
+.red {
+    width: 125px;
+    height: 1px;
+background-color: red;
+}
+#about .parabout {
+    width: 505px;
+    font-weight: lighter;
+    margin-top: 45px;
+    font-size: 14px;
+text-align: center;
+}
+#about .cards {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 76px;
+    
+}
+#about .cards #card {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 350px;
+}
+#about .cards #card img {
+    
+    height: 170px;
+}
+#about .cards #card .Headingcard {
+    margin-right: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    
+    font-weight: bolder;
+    font-family: 'Arial Narrow Bold', sans-serif;
+
+}
+#about .cards #card .parcard {
+    font-weight: lighter;
+    color: #b4b4b4;
+}
+#pricing {
+    
+    display: flex;
+    
+height: 700px;
+ background-image: url(/css/img/feature-pic-1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
