@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+height: 66px;
+}
+#headerone {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 130px;
+}
+#headerone img{
+    width: 155px;
+}
+#headertwo{
+    display: flex;
+    
+    width: 50%;
+}
+#headertwo ul {
+    display: flex;
+    
+}
+#headertwo ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+}
+#headertwo ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    
+    padding: 66px 16px;
+    
+}
+#headertwo ul li:hover {
+ 
+    align-items: center;
+    height: 66px;
+    background-color:#fe6847;
+}
+#home {
+    display: flex;
+    
+height: 550px;
+ background-image: url(/css/img/feature-pic-1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+#homeone {
+    margin-left: 124px;
+    padding-top: 104px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}   
+#homeone .headinghome {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Arial Narrow Bold', sans-serif;
+text-align: start;
+    color: white;
+}
+#homeone .paragraphhome {
+    font-size: 12px;
+    margin: 15px 0px;
+    font-weight: bolder;
+    font-family: 'Arial Narrow Bold', sans-serif;
+text-align: start;
+    color: white;
+}
+#homeone a {
+    text-align: center;
+    width: 90px;
+    font-size: 12px;
+    text-decoration: none;
+    padding:  10px 35px;
+    background-color: #fe6847;
+    color: white;
+}
+#hometwo {
+    margin-left: 124px;
+    padding-top: 104px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#hometwo .SF {
+    
+    font-weight: bolder;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 175px;
+}
+#hometwo .SF  span{
+    color: #fe6847;
+     
+}
+#hometwo .DIS {
+    font-weight: bolder;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 0);
+    
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    
+
+    font-size: 66px;
+}
+hr {
+    width: 340px;
+}
+#hometwo .OF {
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    padding-left: 74px;
+    text-align: start;
+}
