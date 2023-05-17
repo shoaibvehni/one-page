@@ -333,6 +333,90 @@ box-shadow: #f8f8f8 10px 10px 4px 10px;
     text-align: start;
 width: 414px;
 }
+#baner {
+    margin-top: 120px;
+    background-color: #fe6847;
+height: 180PX;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#baner .banh {
+    width: 60%;
+    color: white;
+    font-size: 25PX;
+}
+.smal {
+    margin-top: 25px;
+    color: white;
+    font-size: 12px;
+}
+
+#S {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ #S hr {
+    margin: 15px;
+    width: 100px;
+    height: 1px;
+    background-color: red;
+ }
+#S .spara {
+    width: 500px;
+    color: #9c9c9c;
+    margin: 45px;
+} 
+#S .Shead {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-top: 75px;
+     font-size: 45px;
+} 
+
+#S .Scards {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Scard {
+    display: flex;
+align-items: center;
+}
+.Scard img {
+    position: relative;
+    left: 74px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.cardmain {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 465px;
+    background-color: #f8f8f8;
+height: 125px;
+box-shadow: #f8f8f8 10px 10px 4px 10px;
+
+}
+.cardmain .Sheader {
+    color: black;
+    padding-top: 24px;
+    padding-left: 84px;
+    font-size: 25px;
+}
+
+.cardmain .Spara {
+    color: #a2a2a2;
+    padding-top: 14px;
+    padding-left: 84px;
+    font-size: 15px;
+    text-align: center;
+width: 314px;
+}
 
 
 
