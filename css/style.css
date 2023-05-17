@@ -187,12 +187,152 @@ text-align: center;
     color: #b4b4b4;
 }
 #pricing {
-    
     display: flex;
-    
-height: 700px;
+    align-items: center;
+    flex-direction: column;
+
  background-image: url(/css/img/feature-pic-1.jpg);
  background-repeat: no-repeat;
  background-size: cover;
 
 }
+#pricing .phead {
+
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 85px;
+}
+
+#pricing .ppara {
+margin-top: 15px;
+    text-align: center;
+    color: white;
+    width: 555px;
+    font-size: 18px;    
+}
+#pricing hr {
+    margin-top: 15px;
+    height: 1px;
+    background-color: #fe6847;
+    width: 255px;
+}
+#pricing .pricecard {
+    box-shadow: #282828 0px 7px 29px 0px;
+
+}
+
+#pricing .pricecardsil {
+    margin-bottom: 34px;
+    box-shadow: #282828 0px 7px 29px 0px;
+}
+#pricing .pricecards {
+    display: flex;
+    align-items: center;
+margin-bottom: 45px;
+    margin-top: 20px;
+
+}
+
+#pricing .pricecards p{
+    font-size: 15px;
+    text-align: center;
+    color: #b2b2b2;
+padding: 18px 55px;
+}
+#pricing .pricecards .FREE{
+    font-size: 25px;
+    text-align: center;
+    color:white;
+
+background-color: rgb(83, 83, 83);
+}
+#pricing .pricecards .unlimted , .egb , .proc {
+
+    background-color: rgb(83, 83, 83);
+}
+#pricing .pricecards .tfour , .tgb , .admin {
+
+    background-color: #282828;
+}
+#pricing .pricecards .dolor {
+    font-size: 50px;
+    text-align: center;
+    color:white;
+background-color: black;
+display: flex;
+flex-direction: column;
+}
+
+#pricing .pricecards .order {
+
+    background-color: black;
+}
+#pricing .pricecards .dolor span {
+    font-size: 19px;
+    color: red;
+}
+#pricing .pricecards .order a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    background-color: #fe6847;
+}
+
+
+#plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#plans .planhead {
+    color: black;
+    margin-top: 75px;
+    
+    border: #282828 2px solid;
+    font-size: 25px;
+} 
+
+#plans .plancards {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.plancard {
+    display: flex;
+align-items: center;
+}
+.plancard img {
+    position: relative;
+    left: 34px;
+    width: 104px;
+    height: 93px;
+    border-radius: 50%;
+}
+.cardmain {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 465px;
+    background-color: #f8f8f8;
+height: 125px;
+box-shadow: #f8f8f8 10px 10px 4px 10px;
+
+}
+.cardmain .planheader {
+    color: black;
+    padding-top: 24px;
+    padding-left: 44px;
+    font-size: 25px;
+}
+
+.cardmain .planpara {
+    color: #a2a2a2;
+    padding-top: 14px;
+    padding-left: 44px;
+    font-size: 15px;
+    text-align: start;
+width: 414px;
+}
+
+
+
