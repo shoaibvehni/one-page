@@ -364,7 +364,9 @@ justify-content: center;
     width: 100px;
     height: 1px;
     background-color: red;
- }
+ 
+}
+ 
 #S .spara {
     width: 500px;
     color: #9c9c9c;
