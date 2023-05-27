@@ -382,11 +382,13 @@ justify-content: center;
 #S .Scards {
     align-items: center;
     display: grid;
+    grid-column-gap: 3%;
     grid-template-columns: auto auto;
 }
 .Scard {
     display: flex;
 align-items: center;
+justify-content: center;
 }
 .Scard img {
     position: relative;
@@ -416,9 +418,85 @@ box-shadow: #f8f8f8 10px 10px 4px 10px;
     padding-top: 14px;
     padding-left: 84px;
     font-size: 15px;
-    text-align: center;
+    text-align: flex-start;
 width: 314px;
 }
+.choses {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    justify-content: center;
+background-image: url(/css/img/feature-pic-1.jpg);
+}
+#why p{
+    margin-top: 45%;
+    border-radius: 1px;
+    border: white 2px solid;
+    color: white;
+    font-size: 44px;
+}
+.chose
+{
+    opacity: 0.8;
+    background-color: black;
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#choso {
+display: flex;
+flex-direction: column;
+}
 
+#chosoo {
+    display: flex;
+    flex-direction: column;
+    }
+
+    #chosooo {
+        display: flex;
+        flex-direction: column;
+        }
+            
+.headchose {
+    margin-top: 12%;
+    color: white;
+    font-size: 24px;
+}
+.parchose {
+    margin: 12px 0px;
+    width: 80%;
+    color: white;
+    font-size: 18px;
+}
+#pro{
+    box-shadow: white 10px 10px 4px 10px;
+    background-color: white;
+}
+#imeg  {
+    height: 6vw;
+    width: 18%;
+}
+#perag {
+    width: 100%;
+}
+.funter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fe6847;
+}
+.fntr {
+    margin: 4% 3%;
+}
+.fntr img{
+    
+    width: 100%;
+}
 
 
