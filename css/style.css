@@ -499,4 +499,102 @@ flex-direction: column;
     width: 100%;
 }
 
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.7), #080808) ,url(/css/img/feature-pic-3.jpg);
+    
+    background-position: center;
+    background-size: cover;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ justify-content: center;   
+}
+#formc ,#infc {
+    margin:  2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#chead p{
+
+    color: white;
+    margin-top: 54%;
+    font-size: 44px;
+}
+#cP {
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    margin: 4%;
+}
+form {
+    width: 100%;
+    max-width: 600px;
+}
+.inputgroup {
+    margin-bottom: 30px;
+    position: relative;
+}
+input ,textarea {
+    
+    width: 400px;
+    padding: 10px; 
+    outline: 0;
+border: 1px solid #282828;
+color: #fff;
+background: transparent;
+font-size: 15px;
+}
+#message{
+    height: 70px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color:#585656;
+    cursor: text;
+    transition: 0.1s;
+}
+.contactus button {
+padding: 12px 50px;
+color: white;
+background: #fe6847;
+border: 1px solid white;
+
+cursor: pointer;
+}
+input:focus~label , input:valid~label,
+textarea:focus~label , textarea:valid~label {
+    visibility: hidden;
+    display: none;
+    font-size: 14px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
