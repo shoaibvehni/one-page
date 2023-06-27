@@ -582,6 +582,711 @@ textarea:focus~label , textarea:valid~label {
 } 
 
 
+#infc {
+margin-bottom: 7%;
+    flex-direction: column;
+
+}
+
+
+.adress , .phone , .mail  {
+    margin-bottom: 25px;
+    color: white;
+        border:#282828 solid 2px;
+        width: 400px;
+      padding: 14px;
+    border-radius: 1px 1px;
+    font-size: 20px;
+    }
+    .mail a{
+        color: #fe6847;
+        text-decoration: none;
+    }
+    svg {
+        background-color:  #fe6847;
+    }
+    
+    footer {
+        display: block;
+        padding: 45px 174px;
+    background-color: #191919;
+    }
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.onehos , .hosting , .news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.lara{
+    color: #585656;
+    width: 340px;
+margin-top: 25px;
+}
+.acpt{
+    color: white;
+    width: 340px;
+margin-top: 25px;
+}
+.visa img{
+    margin-top: 5px;
+    background-color: #b4b4b4;
+    width: 65px;
+
+}
+.hosting {
+    margin-left: 45px;
+}
+.hosting p {
+    color: white;
+    font-size: 26px;
+}
+
+.hosting a {
+text-decoration: none;
+margin-top: 4px;
+    color: #585656;
+    font-size: 16px;
+}
+.news {
+    margin-left: 25px;
+    }
+ .sin , .safe {
+    color: #282828 ;
+    font-size: 18px;
+    
+    margin: 5px;
+}
+.new{
+    margin: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.folo   {
+    color: white;
+    font-size: 25px;
+}
+.icones {
+    
+    font-size: 25px;
+}
+.foo {
+    width: 100%;
+   height: 90px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+    .on {
+
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        color: white;
+
+    } 
+
+
+.of   {
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+        color: white;
+}
+@media screen and (max-width: 1096px) {
+    
+
+    #headerone {
+        width: 30%;
+    }
+    #headertwo {
+        display: flex;
+        width: 60%;
+    }
+    
+    #plans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #plans .planhead {
+        color: black;
+        margin-top: 75px;
+        
+        border: #282828 2px solid;
+        font-size: 25px;
+    } 
+    
+    #plans .plancards {
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .plancard {
+        display: flex;
+    align-items: center;
+    }
+    .plancard img {
+        position: relative;
+        left: 24px;
+        width: 64px;
+        height: 93px;
+        border-radius: 50%;
+    }
+    .cardmain {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 365px;
+        background-color: #f8f8f8;
+    height: 125px;
+    box-shadow: #f8f8f8 10px 10px 4px 10px;
+    
+    }
+    .cardmain .planheader {
+        color: black;
+        padding-top: 24px;
+        padding-left: 44px;
+        font-size: 25px;
+    }
+    
+    .cardmain .planpara {
+        color: #a2a2a2;
+        padding-top: 14px;
+        padding-left: 44px;
+        font-size: 15px;
+        text-align: start;
+    width: 314px;
+    }
+    
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about .host{ 
+    margin-top: 75px;
+    margin-bottom: 16px;
+    color: #262626;
+font-size: 45px;
+}
+.red {
+    width: 125px;
+    height: 1px;
+background-color: red;
+}
+#about .parabout {
+    width: 505px;
+    font-weight: lighter;
+    margin-top: 45px;
+    font-size: 14px;
+text-align: center;
+}
+#about .cards {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 76px;
+    
+}
+#about .cards #card {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 250px;
+}
+#about .cards #card img {
+    
+    height: 120px;
+}
+#about .cards #card .Headingcard {
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    
+    font-weight: bolder;
+    font-family: 'Arial Narrow Bold', sans-serif;
+
+}
+#about .cards #card .parcard {
+    font-weight: lighter;
+    color: #b4b4b4;
+}
+
+#pricing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+ background-image: url(/css/img/feature-pic-1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+#pricing .phead {
+
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 85px;
+}
+
+#pricing .ppara {
+margin-top: 15px;
+    text-align: center;
+    color: white;
+    width: 555px;
+    font-size: 18px;    
+}
+#pricing hr {
+    margin-top: 15px;
+    height: 1px;
+    background-color: #fe6847;
+    width: 255px;
+}
+#pricing .pricecard {
+    box-shadow: #282828 0px 7px 29px 0px;
+
+}
+
+#pricing .pricecardsil {
+    margin-bottom: 34px;
+    box-shadow: #282828 0px 7px 29px 0px;
+}
+#pricing .pricecards {
+    display: flex;
+    align-items: center;
+margin-bottom: 45px;
+    margin-top: 20px;
+
+}
+
+#pricing .pricecards p{
+    font-size: 12px;
+    text-align: center;
+    color: #b2b2b2;
+padding: 18px 35px;
+}
+#pricing .pricecards .FREE{
+    font-size: 25px;
+    text-align: center;
+    color:white;
+
+background-color: rgb(83, 83, 83);
+}
+#pricing .pricecards .unlimted , .egb , .proc {
+
+    background-color: rgb(83, 83, 83);
+}
+#pricing .pricecards .tfour , .tgb , .admin {
+
+    background-color: #282828;
+}
+#pricing .pricecards .dolor {
+    font-size: 50px;
+    text-align: center;
+    color:white;
+background-color: black;
+display: flex;
+flex-direction: column;
+}
+
+#pricing .pricecards .order {
+
+    background-color: black;
+}
+#pricing .pricecards .dolor span {
+    font-size: 19px;
+    color: red;
+}
+#pricing .pricecards .order a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    background-color: #fe6847;
+}
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    }
+     
+    .cardmain .planpara { 
+        width: 205px;
+    }
+    
+    
+    footer {
+    padding: 45px 74px; 
+    }
+    .cardmain { 
+    width: 305px;
+    }
+    .Scard img {
+        position: relative;
+        left: 47px; 
+    }
+
+    .cardmain .Spara {
+        width: 200px;
+        padding-left: 40px;
+    }
+    
+element.style {
+}
+#S .Scards { 
+    grid-column-gap : 0%;
+}
+
+    @media screen and (max-width: 1326px) {
+    
+
+#headerone {
+    width: 40%;
+}
+
+#plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#plans .planhead {
+    color: black;
+    margin-top: 75px;
+    
+    border: #282828 2px solid;
+    font-size: 25px;
+} 
+
+#plans .plancards {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.plancard {
+    display: flex;
+align-items: center;
+}
+.plancard img {
+    position: relative;
+    left: 24px;
+    width: 64px;
+    height: 93px;
+    border-radius: 50%;
+}
+.cardmain {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 365px;
+    background-color: #f8f8f8;
+height: 125px;
+box-shadow: #f8f8f8 10px 10px 4px 10px;
+
+}
+.cardmain .planheader {
+    color: black;
+    padding-top: 24px;
+    padding-left: 44px;
+    font-size: 25px;
+}
+
+.cardmain .planpara {
+    color: #a2a2a2;
+    padding-top: 14px;
+    padding-left: 44px;
+    font-size: 15px;
+    text-align: start;
+width: 314px;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:900px) {
+
+    .headertw , #toggleButton {
+        position: absolute;
+        display: none;
+        visibility: hidden;
+    }
+ }
+
+@media screen and (max-width:900px) {
+
+
+    #toggleButton {
+    margin-left: 24%;
+}
+    .address, .phone, .mail {
+        width: 258px;
+      }
+      
+      #headertwo {
+        display: none;
+        visibility: hidden;
+        position: absolute;
+      }
+      
+      .headertw {
+        position: absolute;
+        top: 40%;
+        left: -100%;
+        width: 270px;
+        height: 60px;
+        background-color: #063f51;
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .headertw.show {
+        left: 0%;
+        display: flex; /* Changed "inline" to "flex" for proper display */
+      }
+      
+      .headertw nav {
+        display: flex;
+      }
+      
+      .headertw nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0%;
+      }
+      
+      .headertw nav ul li {
+        list-style: none;
+        color:  #666;
+      }
+      
+      .headertw nav ul li a {
+        margin-left: 50%;
+        border-bottom: #585555 solid 1px;
+        box-shadow: 0 13px 15px rgba(0, 0, 0, .1);
+        display: block;
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+        text-align: start;
+        padding: 12px;
+           width: 660Px;        
+        background-color: #222222;
+      }
+      #headerone img { 
+        margin-left: -50% ;
+
+      }
+      
+      .headertw nav ul li a:hover {
+        background-color: white;
+        color: black;
+      }
+      
+      #headertw {
+        margin-top: 20px;
+      }
+      
+      #toggleButton {
+        margin-top: 0px;
+      }
+      
+      .fa-bars {
+        color: red;
+      }
+      
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+#homeone .headinghome {
+    font-size: 21px; 
+}
+#homeone .paragraphhome {
+    font-size: 12px; 
+}
+#hometwo .SF { 
+font-size: 124px; 
+
+}
+
+
+#hometwo .DIS { 
+
+font-size: 35px;
+
+}
+hr {
+    width: 169px;
+}
+
+
+#hometwo .OF {
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    padding-left: 35px;}
+
+
+    .adress, .phone, .mail {
+        margin-bottom: 25px;
+        color: white;
+        border: #282828 solid 2px;
+        width: 185px;
+        padding: 8px;
+        border-radius: 1px 1px;
+        font-size: 11px;
+    }
+    input, textarea {
+        width: 271px;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #282828;
+        color: #fff;
+        background: transparent;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 708px) {
+    
+    #about .cards #card {
+        margin-left: -64px;
+    }
+    #about .cards #card img {
+        height: 76px;
+    }
+    #about .cards #card .Headingcard {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    #about .cards #card .parcard {
+        font-weight: lighter;
+        width: 48%;
+        font-size: 12px;
+    }
+
+    #pricing .pricecards p {
+        padding: 18px 4px;
+    }
+    .cardmain .planpara { 
+        width: 240px;
+    }
+    .cardmain { 
+        width: 240px;
+
+}
+#S {
+    margin-bottom: 10%;
+}
+
+
+}
+@media screen and (max-width: 522px) {
+
+
+
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .lara {
+        color: #585656;
+        width: 123px;
+        margin-top: 17px;
+    }
+    .sin, .safe {
+        color: #282828;
+        font-size: 13px;
+        margin: 0px;
+    }   
+
+    .news {
+        margin-left: 0px;
+    }
+    .hosting {
+        margin-left: 0px;
+    }
+    .acpt {
+        color: white;
+        width: 48px;
+        margin-top: 25px;
+    }
+    #toggleButton {
+        margin-left: -1%;
+    }
+    #hometwo .SF {
+        font-size: 73px;
+    }
+    #hometwo .DIS {
+        font-size: 13px;
+    }
+    #about .parabout {
+        width: 228px;
+    }
+    #perag {
+        width: 82%;
+    }
+    
+    .cardmain .Spara {
+        width: 200px;
+        padding-left: 3px;
+    }
+    #chead p {
+        color: white;
+        margin-top: 54%;
+        font-size: 19px;
+    }
+    input, textarea {
+        width: 200px;
+
+    }
+    hr {
+        width: 20px;
+    }
 
 
 
@@ -596,5 +1301,111 @@ textarea:focus~label , textarea:valid~label {
 
 
 
+}
 
+@media screen and (max-width: 650px) {
+ 
 
+    #home {
+        display: flex;
+        height: 696px;
+        flex-direction: column;
+}
+#about .cards {
+
+    display: flex;
+        flex-direction: column;
+
+}
+#about .parabout {
+    width: 283px;
+
+}
+#about .host { 
+font-size: 24px;
+}
+
+#pricing .pricecards {
+
+display: flex;
+flex-direction: column;
+
+}
+#pricing .phead { 
+font-size: 19px;
+}
+#plans .planhead {
+    font-size: 12px;
+}
+#plans .plancards {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+#baner .banh {
+    width: 14%;
+    color: white;
+    font-size: 13PX;
+}
+#S .Shead {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-top: 75px;
+    font-size: 25px;
+}
+#S .spara {
+    width: 203px;
+    color: #9c9c9c;
+    margin: 2px;
+}
+#S .Scards {
+    align-items: center;
+    display: grid;
+    grid-column-gap: 3%;
+    grid-template-columns: auto;
+}
+#why p {
+    margin-top: 45%;
+    border-radius: 1px;
+    border: white 2px solid;
+    color: white;
+    font-size: 18px;
+    
+}
+.parchose {
+    margin: 12px 0px;
+    width: 55%;
+    color: white;
+    font-size: 9px;
+}
+.headchose {
+    margin-top: 3%;
+    color: white;
+    font-size: 18px;
+}
+.funter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fe6847;
+}
+.fntr {
+    margin: 0% 0%;
+}
+.chose {
+    opacity: 0.8;
+    background-color: black;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#pricing .ppara {
+width: 200px;
+
+}
+}

@@ -12,7 +12,10 @@
 
         <div id="headerone">
             <a href="#"><img src="/css/img/logo-alt.png" alt=""></a>
+            
+        
         </div>
+        
         <div id="headertwo">
             <ul>
  
@@ -29,6 +32,43 @@
                 <li><a href="">BLOG</a> </li>
             </ul>
         </div>
+
+        <a href="#" id="toggleButton" i class="fa  fa-bars" aria-hidden="true">click</a>
+                        
+  
+        
+        <div class="headertw">
+            <nav>
+            <ul>
+ 
+                <li class="active"><a href=""> HOME</a></li>
+ 
+                <li><a href="">ABOUT</a> </li>
+ 
+                <li><a href="">CONTACT US </a></li>
+ 
+                <li><a href="">PRICING</a></li>
+ 
+                <li><a href=""> SERVICES</a></li>
+ 
+                <li><a href="">BLOG</a> </li>
+            
+            </ul>
+        </nav>
+        </div>
+        
+        <script>
+        // Get the headertw element and the toggleButton element
+        const headertw = document.querySelector('.headertw');
+        const toggleButton = document.getElementById('toggleButton');
+        
+        // Add click event listener to the toggleButton
+        toggleButton.addEventListener('click', function() {
+          // Toggle the show class on the headertw element
+          headertw.classList.toggle('show');
+        });
+    </script>
+
     </div>
     <div id="home">
         <div id="homeone">
@@ -414,9 +454,88 @@
            
         </div>    
         <div id="infc">
-       <p></p>
+       <p class="adress"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM208 288h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H144c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z"/></svg>100 Mainstreet Center, Sydney</p>
+       <p class="phone"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>(208) 333 9296
+    </p>
+       <p class="mail"> <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+         contact@example.com </a> </p>
+       <p class="mail"> <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+         support.onehost.com</a></p>
     
    </div>
 </div>
+
 </body>
+<footer>
+    <div class="footer">
+        <div id="onehos">
+            <a class="pogo" href="">
+                <img src="/css/img/logo.png" alt="">
+            </a>
+            
+            <p class="lara">We are Onehost, a web hosting company with 24/7 customer support. We provide best hosting solutions for your hosting needs. Our clients from personal to corporate. Our data center are all over the world to ensure your website is always up.</p>
+
+            <p class="acpt">We Accepted</p>
+<a class="visa" href="">
+    <img src="/css/img/visa.png" alt="">
+    <img src="/css/img/visa.png" alt="">
+    <img src="/css/img/visa.png" alt="">
+    <img src="/css/img/visa.png" alt="">
+
+</a>
+
+        </div>
+        
+    <div class="hosting">
+        <p class="hos">Hostin</p>
+        <a href="">web</a>
+        
+        <a href="">web</a>
+        
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+    </div>
+    <div class="hosting">
+        <p class="hos">company</p>
+        <a href="">web</a>
+        
+        <a href="">web</a>
+        
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+        <a href="">web</a>
+    </div>
+    <div class="news">
+        <p class="new">news</p>
+        <p class="sin">Signup for our newsletter to get the latest news in your inbox.</p>
+        <p class="safe">Your email is safe with us. We don't spam.
+        </p>
+        <p class="folo">
+            Follow Us on</p>
+            <a class="icones" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+
+            </a>
+    </div>
+
+    </div>
+    
+</footer>
+<div class="foo">
+    <div class="on"><p> Copyright 2022 - Onehost by Designesia</p></div>
+    <div class="of"><p>Terms & Conditions Privacy Policy</p> </div>
+
+
+</div>
+
 </html>
